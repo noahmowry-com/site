@@ -1,19 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-  img.centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Noah Mowry</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .container {
+            text-align: center;
+            max-width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            font-family: sans-serif;
+            margin-top: 20px;
+        }
+        .icon-row {
+            margin-top: 20px;
+        }
+        .icon {
+            margin: 0 10px;
+            max-width: 100px;
+            height: auto;
+        }
+		img.centered {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
 </head>
 <body>
-
-  <br/>
-  <img src="img/no-whistle.jpg" alt="No Whistle" style="width:50%;" class="centered">
-
+	<div class="container">
+	    <div class="title">Noah Mowry</div>
+	    <img src="img/no-whistle.jpg" alt="No Whistle">
+	    <div class="title">No Whistle</div>
+		<p>Available Now</p>
+	    <div class="icon-row">
+	        <a href="https://www.apple.com/music/"><img class="icon" src="apple_music_logo.png" alt="Apple Music"></a>
+	        <a href="https://www.spotify.com/"><img class="icon" src="spotify_logo.png" alt="Spotify"></a>
+	        <a href="https://www.youtube.com/"><img class="icon" src="youtube_logo.png" alt="YouTube"></a>
+	    </div>
+	</div>
 </body>
 </html>
